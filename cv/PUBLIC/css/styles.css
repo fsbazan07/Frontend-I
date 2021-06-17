@@ -1,0 +1,73 @@
+body {
+    background-color: efefef;
+    font-family:'Times New Roman', Times, serif;
+
+}
+header {
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #C4C4C4;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#ID {
+    display: block;
+    width: 10rem;
+    margin: auto;
+}
+main{
+    height: 459px;
+    width: 1041px;
+    margin: auto;
+    padding-top: 10%;
+
+}
+.titulos {
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #C4C4C4;
+}
+h1{
+    font-weight: 100;
+    font-size: 35px;
+    margin: center;
+    text-align: center;
+    color: #005677;
+    
+}
+
+.seccion {
+padding-left: 4em;
+}
+.caracteristica {
+    padding-left: 1em;
+}
+h2 {
+    font-weight: 50;
+    font-size: 20px;
+    color: #005677;
+
+}
+
+.margen {
+    font-style: italic;
+    font-weight: bold;
+
+}
+.margen-tabla {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #005677;
+    text-align: center;
+    margin-top: 20rem;
+    font-size: 16px;
+    color:#ffff;
+    padding: 10px;
+}
+
+.icono{
+    height: 20px;
+}
