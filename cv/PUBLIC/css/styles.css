@@ -1,73 +1,86 @@
 body {
-    background-color: efefef;
-    font-family:'Times New Roman', Times, serif;
+  background-color: dimgrey;
+  font-family: 'Nunito', sans-serif;
 
 }
 header {
-    background-size: 100%;
-    background-attachment: fixed;
-    background-color: #C4C4C4;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+  background-image: url(../img/mars-2051748_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: none;
+  background-size: cover;
+  
+  background-attachment: scroll;
+  background-color: #C70039   ;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 #ID {
-    display: block;
-    width: 10rem;
-    margin: auto;
+  display: block;
+  width: 10rem;
+  margin: auto;
 }
-main{
-    height: 459px;
-    width: 1041px;
-    margin: auto;
-    padding-top: 10%;
 
+nav{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  margin: auto;
+}
+main {
+  height: 459px;
+  width: 1041px;
+  margin: auto;
+  padding-top: 10%;
 }
 .titulos {
-    background-size: 100%;
-    background-attachment: fixed;
-    background-color: #C4C4C4;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-color: #C70039 ;
 }
-h1{
-    font-weight: 100;
-    font-size: 35px;
-    margin: center;
-    text-align: center;
-    color: #005677;
-    
+h1 {
+  font-weight: 100;
+  font-size: 35px;
+  margin: center;
+  text-align: center;
+  color: #ffffff;
 }
 
 .seccion {
-padding-left: 4em;
+  padding-left: 4em;
 }
 .caracteristica {
-    padding-left: 1em;
+  padding-left: 1em;
+  color: #ffffff;
 }
 h2 {
-    font-weight: 50;
-    font-size: 20px;
-    color: #005677;
-
+  font-weight: 50;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .margen {
-    font-style: italic;
-    font-weight: bold;
-
+  font-style: italic;
+  font-weight: bold;
+  color: #ffffff;
 }
 .margen-tabla {
-    font-weight: bold;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 footer {
-    background-color: #005677;
-    text-align: center;
-    margin-top: 20rem;
-    font-size: 16px;
-    color:#ffff;
-    padding: 10px;
+  background-color: #C70039 ;
+  text-align: center;
+  margin-top: 20rem;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
 }
 
-.icono{
-    height: 20px;
+i {
+  height: 20px;
+  color: #ffffff;
 }
