@@ -56,14 +56,16 @@ li {
   width: inherit;
   justify-content: center;
   box-sizing: content-box;
-  padding-right: 0.5rem;
 }
-i {
-  padding-right: 0.5rem;
+li ::before {
+  content: url(/ROOT/img/huella.png);
+  color: #ffffff;
+  margin-right: 0.5rem;
 }
 a {
   color: #ffffff;
   text-decoration: none;
+  margin: 2rem;
 }
 .menu-responsive {
 
